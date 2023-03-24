@@ -55,8 +55,6 @@ const listas = [
   }
 ];
 
-console.log("--- ITERANDO UN ARRAY DE OBJETOS ---");
-
 // for (let lista of listas) {
 //   if(lista.distrito ==="San Miguel") {
 //     console.log(lista.nombre) 
@@ -83,3 +81,5 @@ input.addEventListener("input",(event)=> {
     }
   }
 })
+
+//Por ahora solo funciona con san miguel y miraflores, ya que solo hay eso en la lista de objetos
